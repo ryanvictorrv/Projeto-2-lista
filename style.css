@@ -77,7 +77,7 @@ body{
 }
 #btn{
    border: none;
-   background-color: var(--coor-red2);
+   background-color: var(--color-red);
    color: white;
    border-radius: 40px;
    cursor: pointer;
@@ -90,5 +90,5 @@ body{
 
 }
 #btn:hover{
-    background-color: var(--color-red);
+    background-color: var(--coor-red2);
 }
