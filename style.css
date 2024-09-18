@@ -28,9 +28,7 @@ body{
     gap: 1rem;
     flex-wrap: wrap;
 }
-.contentbody{
-    
-}
+
 #task,
 #buttontask{
     border: none;
@@ -44,7 +42,7 @@ body{
 
 }
 #buttontask{
-    background-color: var(--color-dark2);
+    background-color: var(--color-green);
     color: var(--color-white);
     border-radius: 50%;
     width: 50px;
@@ -53,7 +51,7 @@ body{
     transition: .4s;
 }
 #buttontask:hover{
-    background-color:var(--color-dark4)
+    background-color:var(--color-green2)
 }
 #to-do-list{
     display: flex;
@@ -67,4 +65,30 @@ body{
     text-transform: capitalize;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+#to-do-list li:hover{
+    background-color: var(--color-dark2);
+    transition: .4s;
+    border-radius: 1rem;
+    padding-inline-start: 1rem;
+    cursor: pointer;
+
+}
+#btn{
+   border: none;
+   background-color: var(--coor-red2);
+   color: white;
+   border-radius: 40px;
+   cursor: pointer;
+   padding: .4rem .8rem;
+   height: 40px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transition: .4s;
+
+}
+#btn:hover{
+    background-color: var(--color-red);
 }
