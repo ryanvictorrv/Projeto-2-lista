@@ -1,0 +1,70 @@
+:root{
+    --color-dark2: rgba(32,32,32);
+    --color-dark: rgba(14,14,14);
+    --color-dark4: rgb(94, 94, 94);
+    --color-white: #fff;
+    --color-green: rgba(103,195,80);
+    --color-green2: rgba(51,149,26);
+    --color-red: rgba(184,40,35);
+    --coor-red2: rgba(146,22,17);
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.contentadditens{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+.contentbody{
+    
+}
+#task,
+#buttontask{
+    border: none;
+    font-size: 1rem;
+    outline: none;
+    padding: 1rem;
+}
+#task{
+    width: 20rem;
+    border-radius: 1rem;
+
+}
+#buttontask{
+    background-color: var(--color-dark2);
+    color: var(--color-white);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: .4s;
+}
+#buttontask:hover{
+    background-color:var(--color-dark4)
+}
+#to-do-list{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0;
+}
+#to-do-list li{
+    list-style-type: none;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+}
